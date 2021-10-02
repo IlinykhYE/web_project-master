@@ -1,0 +1,22 @@
+= form_for(:session, url: sessions_path) do |f|
+  -# - if @user.errors.any?
+    #error_explanation
+      -#%h2= "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
+      -#%ul
+      -#  - @user.errors.full_messages.each do |msg|
+      -#    %li= msg
+
+
+  .field
+    = f.label t('.email')
+    = f.text_field :email
+  .field
+    = f.label t('.password')
+    = f.password_field :password
+
+  .actions
+    -#= f.submit 'Save'
+    =f.submit t('.sign_in'), class: 'btn btn-primary'
+%p
+  =t('.new user?')
+  = link_to 'Sign up now!', signup_path

@@ -1,0 +1,16 @@
+-#%h1 Welcome to the Project
+-#%ul
+-#  %li= link_to 'Contacts', main_contacts_path
+-#  %li= link_to 'Help', main_help_path
+-#  %li= link_to 'About', main_about_path
+-#  %li= link_to 'Ruby on Rails Website', ' http://rubyonrails.org '
+
+
+
+
+.center.jumbotron
+  %h1= t('.title_welcome')
+  - if signed_in?
+    = link_to t(".start_rating"), work_path, class: "btn btn-lg btn-primary"
+  - else
+    = link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary"

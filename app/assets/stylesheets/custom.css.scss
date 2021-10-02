@@ -1,0 +1,160 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+body {
+  padding-top: 0px;
+}
+
+div.col-md-10, div.col-md-1, div.col-md-12 {
+  background-color: lightblue;
+}
+
+div.col-md-3 {
+  border: 3px solid #00a8e1;
+}
+
+div.img-center {
+  border: 3px solid #00a8e1;
+}
+
+div.center.jumbotron {
+  border: 3px solid #00a8e1;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 50px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -4px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+//h2 {
+//  font-size: 1.2em;
+//  letter-spacing: -1px;
+//  margin-bottom: 30px;
+//  text-align: center;
+//  font-weight: normal;
+//  color: #777;
+//}
+
+p {
+  font-size: 2em;
+  line-height: 1.6em;
+}
+/* header */
+
+header {
+  background-color: #e3f2fd;
+  height: 80px;
+}
+
+header li {
+  right: 160px;
+  top: -145px;
+}
+li.logged {
+  right: 70px;
+}
+
+img.gravatar {
+  right: 300px;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 3em;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+//#logo:hover {
+//  color: #000;
+//  text-decoration: none;
+//}
+//
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+//*{
+//  margin: 0;
+//}
+//header {
+//  width: 100%;
+//  height: 100px;
+//  //text-align: center;
+//  line-height: 10px;
+//  background: lightblue;
+//  position: relative;
+//  //transform: skewY(7deg);
+//  transform-origin: top right;
+//}
+//
+//h2 {
+//  //transform: skewY(-7deg);
+//}
+//
+//header:hover {
+//  height: 200px;
+//  transition-duration: 1s;
+//}
+//
+////ul.dropdown-menu {
+////  position: fixed;
+////  right: 1000px;
+////}

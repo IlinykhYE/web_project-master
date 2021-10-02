@@ -1,0 +1,123 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+ru:
+  hello: "Приветствуем!"
+
+
+
+  shared:
+    header:
+      logo: "Оценка современного искусства"
+      home: "Главная"
+      help: "Помощь"
+      sign_in: "Войти"
+      sign_out: "Выйти"
+      person: "Я"
+      profile: "Моя страница"
+    #      logged_msg: "Вошел как "
+
+    footer:
+      about: "О нас"
+      contact: "Контакты"
+      dev_msg: "Сайт в разработке"
+
+  sessions:
+    new:
+      sign_in: "Вход"
+      sign_up: "Выход"
+      email: "E-mail"
+      password: "Пароль"
+      new_user?: "Новый пользователь?"
+
+  users:
+    form:
+      name: "Имя"
+      email: "E-mail"
+      password: "Пароль"
+      password_confirmation: "Подтверждение пароля"
+      #      confirmation: "Подтверждение"
+      create_account: "Создать мой аккаунт"
+
+    new:
+      new_user_sign_up: "Регистрация нового пользователя"
+      back: "Назад"
+
+
+    show:
+      work: "Оценивание"
+      email: "E-mail"
+
+  work:
+
+    index:
+      def_select_theme: "Выберите тему для оценки"
+
+
+    button_theme_select:
+      select_theme_bt: "выбрать тему"
+
+    button_list_results:
+      results_list: "результаты"
+
+    choose_theme_from_arr:
+      select_theme: "выберите тему"
+
+    choose_theme:
+      select_theme: "выберите тему"
+
+    images:
+      common_value: "средняя оценка"
+      total_values: "всего оценок"
+
+      make_decision: "выберите свою оценку"
+      save_decision: "сохранить"
+
+      share_opinion: "Поделись своим мнением"
+
+
+      # titles
+      theme_name: "Тема"
+
+    display_theme:
+      select_theme: "Выберите тему для оценки"
+
+
+    results_list:
+      no_values: "Результаты по выбранной теме отсутствуют..."
+      select_theme: "Выберите другую тему"
+      return_to_main: "На главную"
+
+      # titles
+      page_title: "Перейдите к выбору темы"
+
+
+  main:
+    about:
+      about_title: "О нас"
+
+    contacts:
+      contacts_title: "Контакты"
+
+    index:
+      title_welcome: 'Добро пожаловать на страницу Галереи'
+      start_rating: 'Приступайте к просмотру и оцениванию!'
+      sign_up: 'Необходима рагистрация!'
