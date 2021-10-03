@@ -196,3 +196,11 @@ $('button.button__results.save').unbind( "click" ).click(function(event) {
             console.log("error: data_return = " + data_return);
         });
 });
+
+function updateSlider(slideAmount) {
+    //get the element
+    var displayValue = document.getElementById("chosen_value");
+    //show the amount
+    console.log("IN updateSlider:  - slideAmount = " + slideAmount );
+    displayValue.innerHTML = slideAmount;
+}
